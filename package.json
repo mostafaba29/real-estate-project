@@ -1,0 +1,15 @@
+{
+  "name": "real-estate-project",
+  "version": "1.0.0",
+  "description": "stage-one-real-estate-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "watch-scss":"sass --watch assets/styles/main.scss:main.css"
+  },
+  "author": "Group1-career-180",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.3"
+  }
+}
