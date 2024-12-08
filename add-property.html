@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Property</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <!-- bootstrap library css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- custom css -->
+        <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./assets/imgs/logo@2x.png" alt="logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="#" id="HomeLink">Home</a></li>
+                <li><a href="#">Listing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+        </nav>
+        <div class="navbar-right">
+            <i class="fa-solid fa-phone"></i>
+            <p class="m-0">
+                (603)555-0123
+            </p>
+            <button class="btn-outline">Add property</button>
+        </div>
+    </header>
+    <section class="bg-eee">
+        <div class="container inputs ">
+            <form action="">
+                <div class="row">
+                    <div class="col-lg-3 col-12 ">
+                    </div>
+                    <div class="col-lg-9 col-12">
+                        <!-- first-form -->
+                        <div class="white-bg p-4 mb-3">
+                            <h3 class="fw-bold">Information</h3>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label fw-bold">Title:*</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Choose">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="description" class="form-label fw-bold">Message</label>
+                                        <textarea class="form-control" id="description" rows="3"
+                                            placeholder="Your Description"></textarea>
+                                    </div>
+                                </div>
+                                <!-- address -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="address" class="form-label fw-bold">Full Address:*</label>
+                                        <input type="text" class="form-control" id="address"
+                                            placeholder="Enter property full address">
+                                    </div>
+                                </div>
+                                <!-- zip code -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="zip" class="form-label fw-bold">Zip Code:*</label>
+                                        <input type="text" class="form-control" id="zip"
+                                            placeholder="Enter property zip code">
+                                    </div>
+                                </div>
+                                <!-- country -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="country" class="form-label fw-bold">Country:*</label>
+                                        <select class="form-select" id="country">
+                                            <option value="US">United States</option>
+                                            <option value="CA">Canada</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- state -->
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="state" class="form-label fw-bold">Province/State:*</label>
+                                        <select class="form-select" id="state">
+                                            <option value="none">None</option>
+                                            <option value="AR">Arkansas</option>
+                                            <option value="CA">California</option>
+                                            <option value="CO">Colorado</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- neighborhood -->
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="neighborhood" class="form-label fw-bold">Neighborhood:*
+                                        </label>
+                                        <select class="form-select" id="neighborhood">
+                                            <option value="none">None</option>
+                                            <option value="downtown">Downtown</option>
+                                            <option value="suburbs">Suburbs</option>
+                                            <option value="rural">Rural</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- location -->
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="location" class="form-label fw-bold">Location:*</label>
+                                        <div
+                                            class="form-control d-flex justify-content-between align-items-center ps-0 border-12">
+                                            <input type="text" class="border-0 w-100 form-control nofocus" id="location"
+                                                placeholder="Enter property location">
+                                            <a href="#">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509123!2d144.96305761531633!3d-37.81362797975145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf57714c14428a0e1!2sFederation%20Square!5e0!3m2!1sen!2sus!4v1693495472997!5m2!1sen!2sus"
+                                            width="100%" height="450" style="border:0;" allowfullscreen=""
+                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                        </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- second form price -->
+                        <div class="white-bg p-4 mb-3">
+                            <h3 class="fw-bold">Price</h3>
+                            <div class="row">
+                                <!-- price -->
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="price" class="form-label fw-bold">Price:*</label>
+                                        <input type="number" class="form-control" id="price"
+                                            placeholder="Example value: 12345.67">
+                                    </div>
+                                </div>
+                                <!-- unit price -->
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="unit-price" class="form-label fw-bold">Unit Price:*</label>
+                                        <select class="form-select" id="country">
+                                            <option value="none">None</option>
+                                            <option value="million">Million</option>
+                                            <option value="twoMillion">2 Million</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- before price -->
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="price" class="form-label fw-bold">Before Price Label:*</label>
+                                        <input type="number" class="form-control" id="price">
+                                    </div>
+                                </div>
+                                <!-- after price -->
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="price" class="form-label fw-bold">After Price Label:*</label>
+                                        <input type="number" class="form-control" id="price">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- third form Additional Information -->
+                        <div class="white-bg p-4 mb-3">
+                            <h3 class="fw-bold">Additional Information</h3>
+                            <div class="row">
+                                <!-- property type -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="property type" class="form-label fw-bold">Property Type:*</label>
+                                        <select class="form-select" id="country">
+                                            <option value="none">Choose</option>
+                                            <option value="apartment">Apartments</option>
+                                            <option value="villas">Villas</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- property status -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="property type" class="form-label fw-bold">Property Status:*</label>
+                                        <select class="form-select" id="country">
+                                            <option value="none">Choose</option>
+                                            <option value="new">New</option>
+                                            <option value="used">Used</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- property status -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="property type" class="form-label fw-bold">Property Label:*</label>
+                                        <select class="form-select" id="country">
+                                            <option value="none">Choose</option>
+                                            <option value="new">New</option>
+                                            <option value="used">Used</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- size -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="size" class="form-label fw-bold">Size (SqFt):*</label>
+                                        <input type="text" class="form-control" id="size">
+                                    </div>
+                                </div>
+                                <!-- land aria -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="land" class="form-label fw-bold">Land Aria (SqFt):*</label>
+                                        <input type="text" class="form-control" id="land">
+                                    </div>
+                                </div>
+                                <!-- id -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="id" class="form-label fw-bold">Property Id:*</label>
+                                        <input type="text" class="form-control" id="id">
+                                    </div>
+                                </div>
+
+                                <!-- rooms -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="rooms" class="form-label fw-bold">Rooms:*</label>
+                                        <input type="text" class="form-control" id="rooms">
+                                    </div>
+                                </div>
+                                <!-- bedrooms -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="bedrooms" class="form-label fw-bold">Bedrooms:*</label>
+                                        <input type="text" class="form-control" id="bedrooms">
+                                    </div>
+                                </div>
+                                <!-- bathrooms -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="bathrooms" class="form-label fw-bold">Bathrooms:*</label>
+                                        <input type="text" class="form-control" id="bathrooms">
+                                    </div>
+                                </div>
+                                <!-- garages -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="garages" class="form-label fw-bold">Garages:*</label>
+                                        <input type="text" class="form-control" id="garages">
+                                    </div>
+                                </div>
+                                <!-- garages size -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="garages" class="form-label fw-bold">Garages Size (SqFt):*</label>
+                                        <input type="text" class="form-control" id="garages">
+                                    </div>
+                                </div>
+                                <!-- year built -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="year" class="form-label fw-bold">Year Built:*</label>
+                                        <input type="text" class="form-control" id="year">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- forth form Amenities  -->
+                        <div class="white-bg p-4 mb-3">
+                            <h4 class="fw-bold">Amenities*</h4>
+                            <div class="row">
+                                <!-- home safety -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <p for="amenities" class="form-label fw-bold">
+                                            Home safety:
+                                        </p>
+                                        <input type="checkbox" name="amenities" id="smoke-alarm"
+                                            class="form-check-input">
+                                        <label for="smoke-alarm">Smoke alarm</label>
+                                        <br>
+                                        <input type="checkbox" name="amenities" id="self-checkin"
+                                            class="form-check-input">
+                                        <label for="self-checkin">Self check-in with lockbox</label>
+                                        <br>
+                                        <input type="checkbox" name="amenities" id="carbon-monoxide"
+                                            class="form-check-input">
+                                        <label for="carbon-monoxide">Carbon monoxide alarm</label>
+                                        <br>
+                                        <input type="checkbox" name="amenities" id="secrity" class="form-check-input">
+                                        <label for="secrity">Security cameras</label>
+                                    </div>
+                                </div>
+                                <!-- bedrooms -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <p for="amenities" class="form-label fw-bold">
+                                            Bedrooms:
+                                        </p>
+                                        <input type="checkbox" name="amenities" id="hangers" class="form-check-input">
+                                        <label for="hangers">Hangers</label>
+                                        <br>
+                                        <input type="checkbox" name="amenities" id="extra-pillows"
+                                            class="form-check-input">
+                                        <label for="extra-pillows">Extra pillows and blankets</label>
+                                        <br>
+                                        <input type="checkbox" name="amenities" id="bed-linen" class="form-check-input">
+                                        <label for="bed-linen">Bed linens</label>
+                                        <br>
+                                        <input type="checkbox" name="amenities" id="tv" class="form-check-input">
+                                        <label for="tv">TV with standard cable</label>
+                                    </div>
+                                </div>
+                                <!-- kitchen -->
+                                <div class="col-lg-4 col-sm-12 col-md-6">
+                                    <div class="mb-3">
+                                        <p for="amenities" class="form-label fw-bold">
+                                            Kitchen:
+                                        </p>
+                                        <input type="checkbox" name="amenities" id="refrigerator"
+                                            class="form-check-input">
+                                        <label for="refrigerator">Refrigerator</label>
+                                        <br>
+                                        <input type="checkbox" name="amenities" id="dishwasher"
+                                            class="form-check-input">
+                                        <label for="dishwasher">Dishwasher</label>
+                                        <br>
+                                        <input type="checkbox" name="amenities" id="microwave" class="form-check-input">
+                                        <label for="microwave">Microwave</label>
+                                        <br>
+                                        <input type="checkbox" name="amenities" id="coffee" class="form-check-input">
+                                        <label for="coffee">Coffee maker</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- fifth form tour -->
+                        <div class="white-bg p-4 mb-3">
+                            <h3 class="fw-bold">Virtual Tour 360</h3>
+                            <div class="row">
+                                <!-- type -->
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="type" class="form-label ">Virtual Tour Type:</label>
+                                        <br>
+                                        <input type="radio" name="type" id="code" class="form-check-input bor">
+                                        <label for="code">Embedded code</label>
+                                        <br>
+                                        <input type="radio" name="type" id="image" class="form-check-input">
+                                        <label for="image">Upload Image</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="tour" class="form-label fw-bold">Embedded code virtual 360</label>
+                                        <textarea class="form-control" id="tour" rows="4"></textarea>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <!-- sixth form url -->
+                        <div class="white-bg p-4 mb-3">
+                            <h3 class="fw-bold">Virtual Tour 360</h3>
+                            <div class="row">
+                                <!-- url -->
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="url" class="form-label fw-bold">Video URL:</label>
+                                        <input type="text" class="form-control" id="url"
+                                            placeholder="YouTube, vimeo url">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <!-- seventh form floor -->
+                        <div class="white-bg p-4 mb-3">
+                            <h3 class="fw-bold">Floors</h3>
+                            <div class="row">
+                                <!-- floor plan -->
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="plan" class="form-label ">Enable Floor Plan:</label>
+                                        <br>
+                                        <input type="radio" name="plan" id="enable" class="form-check-input bor">
+                                        <label for="enable">Enable</label>
+                                        <br>
+                                        <input type="radio" name="plan" id="disable" class="form-check-input">
+                                        <label for="diable">Disable</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="bg-eee p-3 border-12">
+                                        <h4>Floor 1</h4>
+                                        <hr>
+                                        <div class="row">
+                                            <!-- floor plan -->
+                                            <div class="col-lg-12 col-sm-12 col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="plan" class="form-label fw-bold">Floor Name:</label>
+                                                    <input type="text" class="form-control" id="plan">
+                                                </div>
+                                            </div>
+                                            <!-- floor price -->
+                                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="plan-price" class="form-label fw-bold">Floor Price (Only
+                                                        Digits) :</label>
+                                                    <input type="number" class="form-control" id="plan-price">
+                                                </div>
+                                            </div>
+                                            <!-- floor postfix -->
+                                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="price-postfix" class="form-label fw-bold">Floor
+                                                        Postfix:</label>
+                                                    <input type="number" class="form-control" id="price-posfix">
+                                                </div>
+                                            </div>
+                                            <!-- size -->
+                                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="plan-size" class="form-label fw-bold">Floor Size (Only
+                                                        Digits) :</label>
+                                                    <input type="number" class="form-control" id="plan-size">
+                                                </div>
+                                            </div>
+                                            <!-- size postfix -->
+                                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="size-postfix" class="form-label fw-bold">Size
+                                                        Postfix:</label>
+                                                    <input type="number" class="form-control" id="size-posfix">
+                                                </div>
+                                            </div>
+                                            <!-- price -->
+                                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="plan-price" class="form-label fw-bold">Floor Price (Only
+                                                        Digits) :</label>
+                                                    <input type="number" class="form-control" id="plan-price">
+                                                </div>
+                                            </div>
+                                            <!-- postfix -->
+                                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="price-postfix" class="form-label fw-bold">Floor
+                                                        Postfix:</label>
+                                                    <input type="number" class="form-control" id="price-posfix">
+                                                </div>
+                                            </div>
+                                            <!-- bedrooms -->
+                                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="floor-bedroom"
+                                                        class="form-label fw-bold">Bedrooms:</label>
+                                                    <input type="number" class="form-control" id="floor-bedroom">
+                                                </div>
+                                            </div>
+                                            <!-- bathrooms -->
+                                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="floor-bathrooms"
+                                                        class="form-label fw-bold">Bathrooms:</label>
+                                                    <input type="number" class="form-control" id="floor-bathrooms">
+                                                </div>
+                                            </div>
+                                            <!-- floor img -->
+                                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="floor-description" class="form-label fw-bold">Floor
+                                                        Image:</label>
+                                                    <br>
+                                                    <div class="white-bg p-4 border">
+                                                        <a class="btn primary-bg white-text px-3">
+                                                            <i class="far fa-image"></i>
+                                                            <span>Choose file</span>
+                                                        </a>
+                                                        <span class="ms-2">Or drop file here to upload</span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- floor description -->
+                                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="floor-description"
+                                                        class="form-label fw-bold">Description:</label>
+                                                    <textarea class="form-control" id="floor-description"
+                                                        rows="3"></textarea>
+                                                </div>
+                                            </div>
+                                            <!-- add -->
+                                            <div class="col-12">
+                                                <div class="mb-3">
+                                                    <div class="text-center py-4">
+                                                        <i
+                                                            class="fa-solid fa-plus p-4 fs-3 primary-border primary-text rounded-circle"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- eighth form agent  -->
+                        <div class="white-bg p-4 mb-3">
+                            <h3 class="fw-bold">Agent Information</h3>
+                            <div class="row">
+                                <!-- agent -->
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="plan" class="form-label ">Choose type agent information?</label>
+                                        <br>
+                                        <input type="radio" name="agent" id="current" class="form-check-input bor">
+                                        <label for="current">Your current user information</label>
+                                        <br>
+                                        <input type="radio" name="agent" id="other" class="form-check-input">
+                                        <label for="other">Other contact</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- buttons -->
+                        <div class="d-flex justify-content-center pb-2">
+                            <button class="btn fw-bold primary-bg white-text px-4 py-2 me-3">Add Property</button>
+                            <button class="btn fw-bold primary-text primary-border px-4 py-2">Save & Preview</button>
+                        </div>
+                        <p class="text-color">Copyright © 2024 Popty</p>
+                    </div>
+
+            </form>
+        </div>
+
+        <!-- bootstrap library js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    </section>
+</body>
+
+</html>
