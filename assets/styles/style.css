@@ -189,3 +189,23 @@ a {
 .btn {
   border-radius: 10px !important;
 }
+/* page 9 styles */
+.primary-border {
+  border: 2px solid var(--Primary);
+}
+
+.nofocus:focus {
+  outline: none !important;
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.inputs input[type="text"],
+.inputs input[type="number"],
+.inputs select,
+.inputs textarea,
+.white-bg,
+iframe,
+.border-12 {
+  border-radius: 12px !important;
+}
