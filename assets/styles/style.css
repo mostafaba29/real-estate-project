@@ -160,3 +160,32 @@
 flex:1;
 color:var(--Text);
 padding:10px;}
+
+.primary-bg {
+  background-color: var(--Primary);
+}
+.secondary-bg {
+  background-color: var(--Secondary);
+}
+.secondary-border {
+  border: 1px solid var(--Text);
+}
+.text-color {
+  color: var(--Text);
+}
+.primary-text {
+  color: var(--Primary);
+}
+.white-bg {
+  background-color: var(--White);
+}
+.white-text {
+  color: var(--White);
+}
+a {
+  text-decoration: none;
+  color: var(--Text);
+}
+.btn {
+  border-radius: 10px !important;
+}
