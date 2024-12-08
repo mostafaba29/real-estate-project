@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real State</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style/mystyle.css" />
+</head>
+<body>
+<header >
+          <nav class="navbar navbar-expand-lg  navbar-light bg-light shadow">
+              <div class="container-fluid ">
+                <a class="navbar-brand " href="#"><img class="w-50 p-2" src="./assets/images/logo@2x.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  ms-5" id="navbarSupportedContent">
+                  <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Listing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li>
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                   
+                  </ul>
+                  <div class="d-flex  p-2 align-items-baseline">
+                    <p class="mx-4"><i class="fa-solid fa-phone"> </i> (603)555-0123</p>
+                    
+                    <button class="navbarbutton">Add property</button>
+                </div>
+                </div>
+              </div>
+          </nav>
+   
+</header>
+<div class="breadcrumb container mt-5">
+  <a href="#" class="breadcrumbhome">Home</a>
+  <span><i class="fa-solid fa-angle-right"></i></span>
+  <a href="#" class="breadcrumbproperty">Property Listing</a>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="./assets/images/pagefive/living-room1.jpg" class="img-fluid" alt="Living Room 1">
+      <button class="photo-button"><i class="fa-regular fa-image"></i>  1/16 Photos</button>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="./assets/images/pagefive/living-room2.png" class="img-fluid livingroom4"  width="100%" alt="Living Room 4">
+        
+        </div>
+      </div>
+      <div class="row mt-3 twolivingroom">
+        <div class="col-md-6">
+          <img src="./assets/images/pagefive/living-room2.png " class="img-fluid " width="100%"   alt="Living Room 2">
+        </div>
+        <div class="col-md-6">
+          <img src="./assets/images/pagefive/living-room2.png" class="img-fluid" alt="Living Room 3">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container ">
+    <div class="d-flex justify-content-between"> 
+      <div class="col-md-8">
+    <div class="property-details shadow p-4 ">
+      <Div class="d-flex justify-content-between mt-2">
+        <h1 class="mt-2">Elegant Studio Flat</h1> 
+          <h2 class="mt-2">$250.00 <Span class="month">/month</Span></h2> 
+      </Div>
+      <hr>
+      <div class="d-flex justify-content-between">
+        <div class="d-flex flex-column ">
+          <p class="text-color"><i class="fa-solid fa-location-dot"></i>  102 102 Ingraham St, Brooklyn, NY 11237</p>
+        <div class="d-flex">
+          <p class="text-color p-2"> <span class="number-color">3</span> Bed</p>
+           <p class="text-color p-2"><span class="number-color">3</span> Bath</p>
+        <p class="text-color p-2"> <span class="number-color">4,043</span> SqFt</p>
+        </div>
+        </div>
+        <div >
+          <button class="iconbuttons"><i class="fa-regular fa-heart"></i></button>
+          <button class="iconbuttons"><i class="fa-solid fa-left-right"></i></button>
+          <button class="iconbuttons"><i class="fa-solid fa-print"></i></button>
+          <button class="iconbuttons"><i class="fa-solid fa-share-nodes"></i></button>
+        </div>
+      </div>
+        <!--group 1 icons-->
+         <div class="d-flex "> 
+          <div class="d-flex col-3">
+            <button class="button-card m-2"><i class="fa-solid fa-house"></i></button>
+            <p class="m-2"><span class="text-color ">ID:</span><br>2297</p>
+          </div>
+          <div class="d-flex col-3">
+            <button class="button-card m-2"><i class="fa-solid fa-filter"></i></button>
+            <p class="m-2"><span class="text-color ">Type:</span><br>House</p>
+          </div>
+          <div class="d-flex col-3">
+            <button class="button-card m-2"><i class="fa-solid fa-house"></i></button>
+            <p class="m-2"><span class="text-color ">Garages:</span><br>1</p>
+          </div>
+          <div class="d-flex">
+            <button class="button-card m-2"><i class="fa-solid fa-bed"></i></button>
+            <p class="m-2"><span class="text-color ">BedRooms:</span><br>2 Rooms</p>
+          </div> 
+          </div>
+         <!--group 2 icons-->
+         <div class="d-flex">
+          <div class="d-flex col-3">
+            <button class="button-card m-2"><i class="fa-solid fa-restroom"></i></button>
+            <p class="m-2"><span class="text-color ">Bathrooms:</span><br>2</p>
+          </div>
+          <div class="d-flex col-3">
+            <button class="button-card m-2"><i class="fa-solid fa-filter"></i></button>
+            <p class="m-2"><span class="text-color ">Landsize:</span><br>2,000 Sqft</p>
+          </div>
+          <div class="d-flex col-3">
+            <button class="button-card m-2"><i class="fa-solid fa-house"></i></button>
+            <p class="m-2"><span class="text-color ">Year build:</span><br>2023</p>
+          </div>
+          <div class="d-flex col-3">
+            <button class="button-card m-2"><i class="fa-solid fa-bed"></i></button>
+            <p class="m-2"><span class="text-color ">Size:</span><br>900 sqft</p>
+          </div>
+         </div> 
+         <button class="askbutton mt-4 " >Ask a question</button>
+         </div><Br>
+          <!-- video section -->
+         <div class="shadow videosection p-4">
+          <h3 class="bold">Video</h2><br>
+          <img src="./assets/images/pagefive/video.png" class="" width="100%">
+         </div>
+        <!--property details-->
+       <br><br>
+              <div class="property-details shadow p-4">
+                <h2>Property Details</h2>
+                <p>3 Units in North Hollywood with upside potential through construction of an ADU (buyer to verify). Unit mix consists of (3) 3+1 bath units. The building is a total of 2,660 square feet and situated on a 6,001 square foot lot. Easy access to the 101, 170, and 134 freeways. The building is separately metered for gas and electricity.</p>
+                <a href="#" class="read-more">Read More <i class="fa-solid fa-circle-arrow-down"></i></a>
+            <div class="property-info mt-4">
+              <div class="row">
+               <div class="col-md-6">
+                  <div class="d-flex">
+                    <div class="secondcolumn ">
+                      <p >ID:</p>
+                      <p>Price:</p>
+                      <p>Size:</p>
+                      <p>Rooms:</p>
+                      <p>Baths:</p>
+                    </div>
+               <div class="text-color">
+                <p >#1234</p>
+                <p >$7,500</p>
+                <p>150 sqft</p>
+                <p>9</p> 
+                <p>3</p> 
+                 </div>
+                  </div>
+                   </div>
+                   <div class="col-md-6">
+                   <div class="d-flex">
+                    <div class="secondcolumn ">
+                      <p >ID:</p>
+                      <p>Price:</p>
+                      <p>Size:</p>
+                      <p>Rooms:</p>
+                      <p>Baths:</p>
+                    </div>
+               <div class="text-color">
+                <p >#1234</p>
+                <p >$7,500</p>
+                <p>150 sqft</p>
+                <p>9</p> 
+                <p>3</p> 
+                 </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!--amenities & features-->
+            <br>
+            <section class="shadow amenities p-4">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Amenities And Features</h2>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-md-4">
+                <ul class="amenities-list">
+                  <li>Smoke alarm</li>
+                  <li>Carbon monoxide alarm</li>
+                  <li>First aid kit</li>
+                  <li>Self check-in with lockbox</li>
+                  <li>Security cameras</li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="amenities-list">
+                  <li>Hangers</li>
+                  <li>Bed linens</li>
+                  <li>Extra pillows & blankets</li>
+                  <li>Iron</li>
+                  <li>TV with standard cable</li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="amenities-list">
+                  <li>Refrigerator</li>
+                  <li>Microwave</li>
+                  <li>Dishwasher</li>
+                  <li>Coffee maker</li>
+                </ul>
+              </div>
+            </div>
+          </section><br>
+        <!-- direction section -->
+        <div class="shadow videosection p-4">
+          <h3 class="bold">Get direction</h3><br>
+            <div class="responsive-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              <div class="property-info mt-4">
+                <div class="row">
+                 <div class="col-md-6">
+                    <div class="d-flex">
+                      <div class="secondcolumndirection ">
+                        <p >Address</p>
+                        <p>City</p>
+                        <p>State/Country</p>
+                      </div>
+                 <div class="text-color">
+                  <p >150 sqft</p>
+                  <p >#1234</p>
+                  <p>$7,500</p> 
+                   </div>
+                    </div>
+                     </div>
+                     <div class="col-md-6">
+                     <div class="d-flex">
+                      <div class="secondcolumndirection ">
+                        <p >Postal code</p>
+                        <p>Area</p>
+                        <p>Country</p>
+                      </div>
+                 <div class="text-color">
+                  <p >7.328</p>
+                  <p >7.328</p>
+                  <p>2024</p>
+                   </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+         </div>
+         <!-- floor plans --><br>
+         <div class="shadow videosection p-4">
+          <h3 class="bold">Floor plans</h3><br>
+         <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+               First Floor
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+            <img src="./assets/images/pagefive/firstfloor.png" width="100%">
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <div class="d-flex justify-content-between">
+                    <p>Second Floor</p>
+                </div>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+      <!-- file attachnment -->
+      <div class="shadow videosection p-4">
+        <h3 class="bold">Floor plans</h3><br>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="d-flex ">
+              <img src="./assets/images/pagefive/pdf.png " width="60px">
+                <p class="mt-3 p-2">Villa-Document.pdf</p>
+                <a href="#" class="download-link mt-3 p-2"><i class="fa-solid fa-download"></i></a>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex ">
+              <img src="./assets/images/pagefive/doc.png  " width="60px">
+                <p class="mt-3 p-2">Villa-Document.pdf</p>
+                <a href="#" class="download-link mt-3 p-2"><i class="fa-solid fa-download"></i></a>
+              </div>
+          </div>
+      </div>
+      </div>
+    <!-- 360 virtual tour section --><br>
+    <div class="shadow videosection p-4">
+      <h3 class="bold">360 Virtual Tour </h2><br>
+        <img src="./assets/images/360 virtual tour/virtual-tour.png">        
+     </div><Br>
+   <!-- loan calculator -->
+   <div class="shadow videosection p-4">
+   <div class="row">
+    <div class="col-md-6">
+      <h2>Loan Calculator</h2>
+
+      <div class="form-group ">
+        <label for="total-amount">Total Amount</label>
+        <input type="number" class="form-control" id="total-amount" value="1000">
+      </div>
+<br>
+      <div class="form-group ">
+        <label for="interest-rate">Interest Rate</label>
+        <input type="number" class="form-control" id="interest-rate" value="0">
+      </div>
+<Br>
+      <div class="form-group ">
+        <label for="property-tax">Property Tax</label>
+        <input type="number" class="form-control" id="property-tax" value="3000">
+      </div>
+<Br>
+      <button type="button" class="askbutton mt-3">Calculate now <i class="fa-solid fa-angle-right"></i></button>
+    </div>
+<Br>
+    <div class="col-md-6">
+      <div class="form-group mt-5">
+        <label for="down-payment">Down Payment</label>
+        <div class="input-group">
+          <input type="number" class="form-control" id="down-payment" value="2000">
+          <span class="input-group-text">20%</span>
+        </div>
+      </div>
+<br>
+      <div class="form-group ">
+        <label for="amortization-period">Amortization Period (months)</label>
+        <select class="form-select" id="amortization-period">
+          <option>Select amortization period</option>
+          <option>12</option>
+          <option>24</option>
+          </select>
+      </div>
+<Br>
+      <div class="form-group ">
+        <label for="home-insurance">Home Insurance</label>
+        <input type="number" class="form-control" id="home-insurance" value="3000">
+      </div>
+<Br>
+      <p class="estimated-payment mt-4 ">Your estimated monthly payment:<span class="m-2">$599.25</span></p>
+    </div>
+  </div>
+</div><br>
+ <!-- nearby -->
+ <div class="shadow videosection p-4">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>What's Nearby?</h2>
+        <p>Explore nearby amenities to precisely locate your property and identify surrounding conveniences, providing a comprehensive overview of the living environment and the property's convenience.</p>
+      </div>
+    </div>
+  
+    <div class="property-info mt-4">
+      <div class="row">
+       <div class="col-md-6">
+          <div class="d-flex">
+            <div class="secondcolumnnearby ">
+        <p >School:</p>
+        <p >University:</p>
+        <p>Grocery Center:</p>
+        <p>Market:</p> 
+            </div>
+       <div class="text-color">
+        <p >0.7 Km</p>
+        <p >1.3 Km</p>
+        <p>0.6 Km</p>
+        <p>1.1 Km</p>  
+         </div>
+          </div>
+           </div>
+           <div class="col-md-6">
+           <div class="d-flex">
+            <div class="secondcolumnnearby ">
+              <p >Hospital:</p>
+              <p>Metro:</p>
+              <p>Gym,Wellness:</p>
+              <p>River:</p>
+            </div>
+       <div class="text-color">
+        <p >0.7 Km</p>
+        <p >1.3 Km</p>
+        <p>0.6 Km</p>
+        <p>1.1 Km</p> 
+         </div>
+           </div>
+        </div>
+      </div>
+    </div>
+</div><Br>
+<!--review section-->
+<div class="shadow videosection p-4">
+<div class="comments-section">
+  <h2>Comment (4)</h2>
+  <div class="comment">
+      <img src="./assets/images/avatar/avatar1.jpg" alt="Viola Lucas" class="profile-pic" />
+      <div class="comment-body">
+          <div class="comment-header">
+              <div class="comment-info">
+              <h3>Viola Lucas</h3>
+              <span>August 13, 2023</span>
+              </div>
+              <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              </div>
+          </div>
+          <p>
+              It's really easy to use and is exactly what I am looking for. A lot of
+              good-looking templates & it's highly customizable. Live support is
+              helpful, solved my issue in no time.
+          </p>
+          <div class="comment-images">
+              <img src="./assets/images/houses/house1.jpg" alt="house image 1">
+              <img src="./assets/images/houses/house2.jpg" alt="house image 2">
+              <img src="./assets/images/houses/house3.jpg" alt="house image 3">
+          </div>
+          <div class="comment-actions">
+              <button><i class="fa fa-thumbs-up"></i> Useful</button>
+              <button><i class="fa fa-thumbs-down"></i> Not helpful</button>
+          </div>
+      </div>
+  </div>
+  <div class="comment">
+      <img src="./assets/images/avatar/avatar1.jpg" alt="Viola Lucas" class="profile-pic" />
+      <div class="comment-body">
+          <div class="comment-header">
+              <div class="comment-info">
+              <h3>Viola Lucas</h3>
+              <span>August 13, 2023</span>
+              </div>
+              <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              </div>
+          </div>
+          <p>
+              It's really easy to use and is exactly what I am looking for. A lot of
+              good-looking templates & it's highly customizable. Live support is
+              helpful, solved my issue in no time.
+          </p>
+          <div class="comment-actions">
+              <button><i class="fa fa-thumbs-up"></i> Useful</button>
+              <button><i class="fa fa-thumbs-down"></i> Not helpful</button>
+          </div>
+      </div>
+  </div>
+  <div class="comment">
+      <img src="./assets/images/avatar/avatar1.jpg" alt="Viola Lucas" class="profile-pic" />
+      <div class="comment-body">
+          <div class="comment-header">
+              <div class="comment-info">
+              <h3>Viola Lucas</h3>
+              <span>August 13, 2023</span>
+              </div>
+              <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              </div>
+          </div>
+          <p>
+              It's really easy to use and is exactly what I am looking for. A lot of
+              good-looking templates & it's highly customizable. Live support is
+              helpful, solved my issue in no time.
+          </p>
+          <div class="comment-actions">
+              <button><i class="fa fa-thumbs-up"></i> Useful</button>
+              <button><i class="fa fa-thumbs-down"></i> Not helpful</button>
+          </div>
+      </div>
+  </div>
+  <button class="btn-outline">View all comment</button>
+
+  <div class="leave-comment">
+    <h2>Leave A Comment</h2>
+    <form>
+      <div class="form-header">
+          <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your Name*" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Your Email*" required>
+            </div>
+      </div>
+      <div class="check-group">
+        <input type="checkbox">
+        <label>
+           Save your name, email for the next time review
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="comment">Comment</label>
+        <textarea id="comment" placeholder="Your comment" required></textarea>
+      </div>
+      <button type="submit" class="btn-primary">Post Comment</button>
+    </form>
+  </div>
+</div>
+</div>
+         </div>
+         <!-- contact seller-->
+          <div class="sidebar">
+          <div class="contact-seller  p-4">
+             <h3>Contact Sellers</h3> 
+             <div class="media d-flex"> 
+              <img src="./assets/images/avatar/avatar1.jpg" alt="Seller Image" class="mt-3"> 
+              <div class="media-body m-3"> 
+                <p class="contact-text"><b>Shara Conner</b></p> 
+                <p class="contact-text"><i class="fa-solid fa-phone"></i>  <span class="contact-text-color">1-333-345-6868</span></p> 
+                <p class="contact-text"><i class="fa-regular fa-envelope"></i> themesflat@gmail.com</p>
+               </div> 
+              </div>
+               <form>
+                 <div class="form-group mt-2"> 
+                  <input type="text" class="form-control borderradius" id="fullName" placeholder="Full Name"> 
+             </div> 
+           <div class="form-group">
+           <textarea class="form-control borderradius" id="agentHelp" rows="3" placeholder="How can an agent help"></textarea>
+           </div> 
+           <button type="submit" class="contact-button">Send message</button>
+           </form> 
+          </div>
+          <!--site-ad-->
+          <section class="site-ad mt-4">
+                  <div class="card p-3">
+                    <img
+                      src="./assets/images/logo@2x.png"alt="" class="card-img-top w-25" />
+                    <div class="card-body mt-5 pt-5">
+                      <h3>
+                        We can help you find a local real estate agent
+                      </h3>
+                      <p>
+                        Connect with a trusted agent who knows the market inside out -
+                        whether you are buying or selling
+                      </p>
+                      <button>Connect with an agent</button>
+                    </div>
+                  </div>
+                </section>
+                    <!-- about property--><br>
+                    <div class="about-property shadow p-4">
+                      <h4>More About This Property</h3> 
+                        <form class="mt-3">
+                          <div class="form-group mt-4"> 
+                           <input type="text" class="form-control borderradius" id="fullName" placeholder="Full Name"> 
+                           <input type="text" class="form-control borderradius mt-3" id="fullName" placeholder="Phone"> 
+                           <input type="text" class="form-control borderradius mt-3" id="fullName" placeholder="Number"> 
+                      </div> 
+                    <div class="form-group">
+                    <textarea class="form-control borderradius mt-3" id="agentHelp" rows="3" placeholder="Message"></textarea>
+                    </div> 
+                    <button type="submit" class="contact-button mt-3"> <i class="fa-regular fa-envelope m-2"> </i> Email agent</button>
+                    </form> 
+                   </div>
+                    </div>
+                    </div></div><br><Br>
+                    <!--similar properties-->
+                    <div class="container">
+                      <h3>Similar Properties</h3>
+                      <br>
+                      <div class="d-flex justify-content-between">
+                        <!--first card-->
+                        <section class="list-studio">
+                          <div class="container">
+                            <div class="row ">
+                              <div class=" ">
+                                <div class="card position-relative ">
+                                  <img   src="./assets/images/studio/studio_1.jpg" alt=""class="card-img-top"  />
+                                  <div class="card-body">
+                                    <div class="card-title"><h3>Elagent studio flat</h3></div>
+                                    <div class="card-text">
+                                      <p>
+                                        <i class="fa-solid fa-location-dot"></i> 102 Ingraham St,
+                                        Brooklyn,NY 1234
+                                      </p>
+                                      <p>
+                                        <span>3 </span>Beds <span> 3 </span>Baths
+                                        <span> 4,043 </span>Sqft
+                                      </p>
+                                    </div>
+                                    <div
+                                      class="card-footer d-flex justify-content-between align-items-center"
+                                    >
+                                      <span class="price">$8,805</span>
+                                      <span>
+                                        <i class="fas fa-long-arrow-alt-right"> </i> compare</span
+                                      >
+                                      <button href="#" class="navbarbutton">Details</button>
+                                    </div>
+                                    <div class="button position-absolute top-0 right-50 ">
+                                      <button class="btn-feature">Featured</button>
+                                      <button class="btn-sale">For Sale</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+ <!--second card-->
+ <section class="list-studio">
+  <div class="container">
+    <div class="row ">
+      <div class=" ">
+        <div class="card position-relative">
+          <img   src="./assets/images/studio/studio_1.jpg" alt=""class="card-img-top"  />
+          <div class="card-body">
+            <div class="card-title"><h3>Elagent studio flat</h3></div>
+            <div class="card-text">
+              <p>
+                <i class="fa-solid fa-location-dot"></i> 102 Ingraham St,
+                Brooklyn,NY 1234
+              </p>
+              <p>
+                <span>3 </span>Beds <span> 3 </span>Baths
+                <span> 4,043 </span>Sqft
+              </p>
+            </div>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center"
+            >
+              <span class="price">$8,805</span>
+              <span>
+                <i class="fas fa-long-arrow-alt-right"> </i> compare</span
+              >
+              <button href="#" class="navbarbutton">Details</button>
+            </div>
+            <div class="button position-absolute top-0 right-50 ">
+              <button class="btn-feature">Featured</button>
+              <button class="btn-sale">For Sale</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!--thirdcard-->
+ <section class="list-studio">
+  <div class="container">
+    <div class="row ">
+      <div class=" ">
+        <div class="card position-relative">
+          <img   src="./assets/images/studio/studio_1.jpg" alt=""class="card-img-top"  />
+          <div class="card-body">
+            <div class="card-title"><h3>Elagent studio flat</h3></div>
+            <div class="card-text">
+              <p>
+                <i class="fa-solid fa-location-dot"></i> 102 Ingraham St,
+                Brooklyn,NY 1234
+              </p>
+              <p>
+                <span>3 </span>Beds <span> 3 </span>Baths
+                <span> 4,043 </span>Sqft
+              </p>
+            </div>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center"
+            >
+              <span class="price">$8,805</span>
+              <span>
+                <i class="fas fa-long-arrow-alt-right"> </i> compare</span
+              >
+              <button href="#" class="navbarbutton">Details</button>
+            </div>
+            <div class="button position-absolute top-0 right-50 ">
+              <button class="btn-feature">Featured</button>
+              <button class="btn-sale">For Sale</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ </div>
+ </div><br><Br>
+ <!-- section ribbon-->
+<section class="find-agent primary-bg">
+  <div class="container d-flex flex-wrap align-items-center justify-content-lg-between text-lg-start text-center
+  justify-content-center white-text p-3">
+      <article class="find-agent-text ">
+          <h3>Find a Local Real State Agent Today</h3>
+          <p>If you're looking to buy or sell a house. We'll help you make the most money possible.</p>
+      </article>
+      <div class="find-agent-btn btn d-flex align-items-center primary-text white-bg px-4 py-2">
+          <p class="m-0 me-3">Find your location agent</p>
+          <i class="fas fa-search"></i>
+      </div>
+  </div>
+</section>
+<!-- footer-->
+<footer class="secondary-bg py-5">
+  <div class="container">
+      <!-- upper -->
+      <div class="row justify-content-between align-items-center pb-3">
+          <!-- col-1 -->
+          <div class="col-lg-7 col-md-5 col-12">
+              <div>
+                  <img src="./assets/images/logo@2x.png" alt="Logo">
+              </div>
+          </div> 
+          <!-- col-2 -->
+          <div class="col-lg-5 col-md-7 col-12 d-flex justify-content-between flex-wrap py-3 py-lg-0">
+              <article class="d-flex align-items-center my-1 align-self-end">
+                  <i class="fas fa-phone primary-text fs-2 me-2"></i>
+                  <div class="vr mx-3 white-bg"></div>
+                  <div class="text">
+                      <p class="text-color m-0">Call us</p>
+                      <p class="white-text">(603) 555-0123</p>
+                  </div>
+              </article>
+              <article class="d-flex align-items-center my-1 align-self-end">
+                  <i class="fa-regular fa-envelope primary-text fs-2 me-2"></i>
+                  <div class="vr mx-3 white-bg"></div>
+                  <div class="text">
+                      <p class="text-color m-0">Need live help</p>
+                      <p class="white-text">proty-support@gmail.com</p>
+                  </div>
+              </article>
+          </div>
+      </div>     
+      <hr class="secondary-border">
+      <!-- middle -->
+      <div class="d-flex justify-content-between flex-wrap py-3">
+          <!-- 1 -->
+          <article>
+              <h3 class="white-text">About us</h3>
+              <ul class="list-unstyled text-color">
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Contact</span>
+
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Why choose us?</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Customer reviews</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Our Team</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Careers with reality</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Work with us</span>
+                  </li>
+              </ul>
+          </article>
+          <!-- 2 -->
+          <article>
+              <h3 class="white-text">Popular house</h3>
+              <ul class="list-unstyled text-color">
+                  <li>
+                      <a href="#">#Penthouses</a>
+                  </li>
+                  <li>
+                      <a href="#">#Villas</a>
+                  </li>
+                  <li>
+                      <a href="#">#Smart home</a>
+                  </li>
+                  <li>
+                      <a href="#">#Apartments</a>
+                  </li>
+                  <li>
+                      <a href="#">#Office</a>
+                  </li>
+                  <li>
+                      <a href="#">#Bungalow</a>
+                  </li>
+              </ul>
+          </article>
+          <!-- 3 -->
+          <article>
+              <h3 class="white-text">Quick links</h3>
+              <ul class="list-unstyled text-color">
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Contact</span>
+          
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Why choose us?</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Customer reviews</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Our Team</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Careers with reality</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Work with us</span>
+                  </li>
+              </ul>
+          </article>
+          <!-- 4 -->
+          <article class="text-color d-flex flex-column justify-content-between">
+              <h3 class="white-text">Newsletter</h3>
+              <label for="Email" class="form-label">Sign up to receive the latest articles</label>
+              <input type="email" id="Email" placeholder="Your email address" class="bg-transparent form-control secondary-border" >
+              <div class="checkbox d-flex mt-1">
+                  <input type="checkbox" id="Terms" class="form-check-input bg-transparent secondary-border me-1">
+                  <label for="Terms" class="form-label">I have read and agree to the terms & conditions</label>
+              </div>
+              <button class="btn white-text primary-bg px-4 py-2">SUBSCRIBE</button>
+          </article>
+      
+      </div>
+      <hr class="secondary-border">
+      <!-- bottom -->
+      <div class="d-flex justify-content-between align-items-center flex-wrap text-color">
+          <p>copyright &copy; <b>PROTY - REAL ESTATE.</b> Designed & Developed by Themesflat</p>
+          <div class="d-flex flex-wrap align-items-center">
+              <p class="fw-bold white-text me-3">FOLLOW US</p>
+              <ul class="list-unstyled d-flex">
+                  <li class="me-2 secondary-border p-3 rounded-circle ">
+                      <a href="#"><i class="fab fa-facebook-f white-text"></i></a>
+                  </li>
+                  <li class="me-2 secondary-border p-3 rounded-circle">
+                      <a href="#"><i class="fab fa-x-twitter white-text"></i></a>
+                  </li>
+                  <li class="me-2 secondary-border p-3 rounded-circle">
+                      <a href="#"><i class="fab fa-linkedin-in white-text"></i></a>
+                  </li>
+                  <li class="me-2 secondary-border p-3 rounded-circle">
+                      <a href="#"><i class="fab fa-instagram white-text"></i></a>
+                  </li>
+              </ul>
+              
+              
+      </div>
+  </div>
+  
+</footer>
+
+    </head>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
