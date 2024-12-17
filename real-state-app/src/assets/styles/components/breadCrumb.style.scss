@@ -1,0 +1,22 @@
+.breadcrumb {
+    padding: 50px;
+  }
+  
+  .breadcrumbhome {
+    color:var(--Primary);
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  .breadcrumbproperty{
+   color:var(--Text-2);
+   text-decoration: none;
+   margin-right: 10px;
+  }
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb span {
+    color: #888;
+    margin: 0 5px;
+  }
