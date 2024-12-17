@@ -6,87 +6,75 @@
     <title>Real State</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- custom style -->
     <link rel="stylesheet" href="./assets/styles/mystyle.css" />
-    <!-- navbar styles -->
-    <link rel="stylesheet" href="./main.css">
-
 </head>
-
 <body>
-  <!-- header -->
-  <header class="p-0 bg-light navbar-light shadow ">
-    <nav class="navbar navbar-expand-lg container">
-        <div class="container-fluid">
-          <a class="navbar-brand " href="#">
-            <img class="w-50 p-2" src="./assets/imgs/logo@2x.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Listing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li>
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              
-            </ul>
-            <div class="d-flex  p-2 align-items-baseline">
-              <p class="mx-4"><i class="fa-solid fa-phone"> </i> (603)555-0123</p>
-              
-              <button class="navbarbutton">Add property</button>
-          </div>
-          </div>
+<header >
+          <nav class="navbar navbar-expand-lg  navbar-light bg-light shadow">
+              <div class="container-fluid ">
+                <a class="navbar-brand " href="#"><img class="w-50 p-2" src="/assets/imgs/logo@2x.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  ms-5" id="navbarSupportedContent">
+                  <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Listing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li>
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                   
+                  </ul>
+                  <div class="d-flex  p-2 align-items-baseline">
+                    <p class="mx-4"><i class="fa-solid fa-phone"> </i> (603)555-0123</p>
+                    
+                    <button class="navbarbutton">Add property</button>
+                </div>
+                </div>
+              </div>
+          </nav>
+   
+</header>
+<div class="breadcrumb container mt-5">
+  <a href="#" class="breadcrumbhome">Home</a>
+  <span><i class="fa-solid fa-angle-right"></i></span>
+  <a href="#" class="breadcrumbproperty">Property Listing</a>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="./assets/imgs/pagefive/living-room1.jpg" class="img-fluid" alt="Living Room 1">
+      <button class="photo-button"><i class="fa-regular fa-image"></i>  1/16 Photos</button>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="./assets/images/pagefive/living-room2.png" class="img-fluid livingroom4"  width="100%" alt="Living Room 4">
+        
         </div>
-    </nav>
-  </header>
-  <!-- end header -->
-  
-  <!-- breadcrumb -->
-  <div class="breadcrumb container mt-5">
-    <a href="#" class="breadcrumbhome">Home</a>
-    <span><i class="fa-solid fa-angle-right me-2"></i></span>
-    <a href="#" class="breadcrumbproperty">Property Listing</a>
-  </div>
-  <!-- end breadcrumb -->
-  
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-6">
-        <img src="./assets/imgs/pagefive/living-room1.jpg" class="img-fluid" alt="Living Room 1">
-        <button class="photo-button"><i class="fa-regular fa-image"></i>  1/16 Photos</button>
       </div>
-      <div class="col-md-6">
-        <div class="row">
-          <div class="col-md-12">
-            <img src="./assets/imgs/pagefive/living-room2.png" class="img-fluid livingroom4"  width="100%" alt="Living Room 4">
-          
-          </div>
+      <div class="row mt-3 twolivingroom">
+        <div class="col-md-6">
+          <img src="./assets/imgs/pagefive/living-room2.png " class="img-fluid " width="100%"   alt="Living Room 2">
         </div>
-        <div class="row mt-3 twolivingroom">
-          <div class="col-md-6">
-            <img src="./assets/imgs/pagefive/living-room2.png " class="img-fluid " width="100%"   alt="Living Room 2">
-          </div>
-          <div class="col-md-6">
-            <img src="./assets/imgs/pagefive/living-room2.png" class="img-fluid" alt="Living Room 3">
-          </div>
+        <div class="col-md-6">
+          <img src="./assets/imgs/pagefive/living-room2.png" class="img-fluid" alt="Living Room 3">
         </div>
       </div>
     </div>
   </div>
-  <!-- end property images -->
+</div>
   <div class="container ">
     <div class="d-flex justify-content-between"> 
       <div class="col-md-8">
@@ -101,8 +89,8 @@
           <p class="text-color"><i class="fa-solid fa-location-dot"></i>  102 102 Ingraham St, Brooklyn, NY 11237</p>
         <div class="d-flex">
           <p class="text-color p-2"> <span class="number-color">3</span> Bed</p>
-          <p class="text-color p-2"> <span class="number-color">3</span> Bath</p>
-          <p class="text-color p-2"> <span class="number-color">4,043</span> SqFt</p>
+           <p class="text-color p-2"><span class="number-color">3</span> Bath</p>
+        <p class="text-color p-2"> <span class="number-color">4,043</span> SqFt</p>
         </div>
         </div>
         <div >
@@ -113,7 +101,7 @@
         </div>
       </div>
         <!--group 1 icons-->
-        <div class="d-flex "> 
+         <div class="d-flex "> 
           <div class="d-flex col-3">
             <button class="button-card m-2"><i class="fa-solid fa-house"></i></button>
             <p class="m-2"><span class="text-color ">ID:</span><br>2297</p>
@@ -439,7 +427,7 @@
 <div class="comments-section">
   <h2>Comment (4)</h2>
   <div class="comment">
-      <img src="./assets/imgs/avatars/avatar1.jpg" alt="Viola Lucas" class="profile-pic" />
+      <img src="./assets/imgs/avatar/avatar1.jpg" alt="Viola Lucas" class="profile-pic" />
       <div class="comment-body">
           <div class="comment-header">
               <div class="comment-info">
@@ -460,9 +448,9 @@
               helpful, solved my issue in no time.
           </p>
           <div class="comment-images">
-              <img src="./assets/imgs/houses/house1.jpg" alt="house image 1">
-              <img src="./assets/imgs/houses/house2.jpg" alt="house image 2">
-              <img src="./assets/imgs/houses/house3.jpg" alt="house image 3">
+              <img src="./assets/images/houses/house1.jpg" alt="house image 1">
+              <img src="./assets/images/houses/house2.jpg" alt="house image 2">
+              <img src="./assets/images/houses/house3.jpg" alt="house image 3">
           </div>
           <div class="comment-actions">
               <button><i class="fa fa-thumbs-up"></i> Useful</button>
@@ -471,7 +459,7 @@
       </div>
   </div>
   <div class="comment">
-      <img src="./assets/imgs/avatars/avatar1.jpg" alt="Viola Lucas" class="profile-pic" />
+      <img src="./assets/images/avatar/avatar1.jpg" alt="Viola Lucas" class="profile-pic" />
       <div class="comment-body">
           <div class="comment-header">
               <div class="comment-info">
@@ -498,7 +486,7 @@
       </div>
   </div>
   <div class="comment">
-      <img src="./assets/imgs/avatars/avatar1.jpg" alt="Viola Lucas" class="profile-pic" />
+      <img src="./assets/images/avatar/avatar1.jpg" alt="Viola Lucas" class="profile-pic" />
       <div class="comment-body">
           <div class="comment-header">
               <div class="comment-info">
@@ -554,69 +542,65 @@
   </div>
 </div>
 </div>
-      </div>
-      <!-- contact seller-->
-      <div class="sidebar">
-      <div class="contact-seller  p-4">
-          <h3>Contact Sellers</h3> 
-          <div class="media d-flex"> 
-          <img src="./assets/imgs/avatar/avatar1.jpg" alt="Seller Image" class="mt-3"> 
-          <div class="media-body m-3"> 
-            <p class="contact-text"><b>Shara Conner</b></p> 
-            <p class="contact-text"><i class="fa-solid fa-phone"></i>  <span class="contact-text-color">1-333-345-6868</span></p> 
-            <p class="contact-text"><i class="fa-regular fa-envelope"></i> themesflat@gmail.com</p>
-            </div> 
-          </div>
-            <form>
-              <div class="form-group mt-2"> 
-              <input type="text" class="form-control borderradius" id="fullName" placeholder="Full Name"> 
-          </div> 
-        <div class="form-group">
-        <textarea class="form-control borderradius" id="agentHelp" rows="3" placeholder="How can an agent help"></textarea>
-        </div> 
-        <button type="submit" class="contact-button">Send message</button>
-        </form> 
-      </div>
-      <!--site-ad-->
-      <section class="site-ad mt-4">
-              <div class="card p-3">
-                <img
-                  src="./assets/imgs/logo@2x.png"alt="" class="card-img-top w-25" />
-                <div class="card-body mt-5 pt-5">
-                  <h3>
-                    We can help you find a local real estate agent
-                  </h3>
-                  <p>
-                    Connect with a trusted agent who knows the market inside out -
-                    whether you are buying or selling
-                  </p>
-                  <button>Connect with an agent</button>
-                </div>
+         </div>
+         <!-- contact seller-->
+          <div class="sidebar">
+          <div class="contact-seller  p-4">
+             <h3>Contact Sellers</h3> 
+             <div class="media d-flex"> 
+              <img src="./assets/imgs/avatar/avatar1.jpg" alt="Seller Image" class="mt-3"> 
+              <div class="media-body m-3"> 
+                <p class="contact-text"><b>Shara Conner</b></p> 
+                <p class="contact-text"><i class="fa-solid fa-phone"></i>  <span class="contact-text-color">1-333-345-6868</span></p> 
+                <p class="contact-text"><i class="fa-regular fa-envelope"></i> themesflat@gmail.com</p>
+               </div> 
               </div>
-            </section>
-                <!-- about property--><br>
-                <div class="about-property shadow p-4">
-                  <h4>More About This Property</h3> 
-                    <form class="mt-3">
-                      <div class="form-group mt-4"> 
-                        <input type="text" class="form-control borderradius" id="fullName" placeholder="Full Name"> 
-                        <input type="text" class="form-control borderradius mt-3" id="fullName" placeholder="Phone"> 
-                        <input type="text" class="form-control borderradius mt-3" id="fullName" placeholder="Number"> 
-                  </div> 
-                <div class="form-group">
-                <textarea class="form-control borderradius mt-3" id="agentHelp" rows="3" placeholder="Message"></textarea>
-                </div> 
-                <button type="submit" class="contact-button mt-3"> <i class="fa-regular fa-envelope m-2"> </i> Email agent</button>
-                </form> 
-                </div>
-      </div>
-    </div>
-  </div>
-
-  <br>
-  <Br>
-  <!--similar properties-->
-  <div class="container">
+               <form>
+                 <div class="form-group mt-2"> 
+                  <input type="text" class="form-control borderradius" id="fullName" placeholder="Full Name"> 
+             </div> 
+           <div class="form-group">
+           <textarea class="form-control borderradius" id="agentHelp" rows="3" placeholder="How can an agent help"></textarea>
+           </div> 
+           <button type="submit" class="contact-button">Send message</button>
+           </form> 
+          </div>
+          <!--site-ad-->
+          <section class="site-ad mt-4">
+                  <div class="card p-3">
+                    <img
+                      src="./assets/imgs/logo@2x.png"alt="" class="card-img-top w-25" />
+                    <div class="card-body mt-5 pt-5">
+                      <h3>
+                        We can help you find a local real estate agent
+                      </h3>
+                      <p>
+                        Connect with a trusted agent who knows the market inside out -
+                        whether you are buying or selling
+                      </p>
+                      <button>Connect with an agent</button>
+                    </div>
+                  </div>
+                </section>
+                    <!-- about property--><br>
+                    <div class="about-property shadow p-4">
+                      <h4>More About This Property</h3> 
+                        <form class="mt-3">
+                          <div class="form-group mt-4"> 
+                           <input type="text" class="form-control borderradius" id="fullName" placeholder="Full Name"> 
+                           <input type="text" class="form-control borderradius mt-3" id="fullName" placeholder="Phone"> 
+                           <input type="text" class="form-control borderradius mt-3" id="fullName" placeholder="Number"> 
+                      </div> 
+                    <div class="form-group">
+                    <textarea class="form-control borderradius mt-3" id="agentHelp" rows="3" placeholder="Message"></textarea>
+                    </div> 
+                    <button type="submit" class="contact-button mt-3"> <i class="fa-regular fa-envelope m-2"> </i> Email agent</button>
+                    </form> 
+                   </div>
+                    </div>
+                    </div></div><br><Br>
+                    <!--similar properties-->
+                    <div class="container">
                       <h3>Similar Properties</h3>
                       <br>
                       <div class="d-flex justify-content-between">
@@ -735,186 +719,183 @@
   </div>
 </section>
  </div>
+ </div><br><Br>
+ <!-- section ribbon-->
+<section class="find-agent primary-bg">
+  <div class="container d-flex flex-wrap align-items-center justify-content-lg-between text-lg-start text-center
+  justify-content-center white-text p-3">
+      <article class="find-agent-text ">
+          <h3>Find a Local Real State Agent Today</h3>
+          <p>If you're looking to buy or sell a house. We'll help you make the most money possible.</p>
+      </article>
+      <div class="find-agent-btn btn d-flex align-items-center primary-text white-bg px-4 py-2">
+          <p class="m-0 me-3">Find your location agent</p>
+          <i class="fas fa-search"></i>
+      </div>
   </div>
+</section>
+<!-- footer-->
+<footer class="secondary-bg py-5">
+  <div class="container">
+      <!-- upper -->
+      <div class="row justify-content-between align-items-center pb-3">
+          <!-- col-1 -->
+          <div class="col-lg-7 col-md-5 col-12">
+              <div>
+                  <img src="./assets/imgs/logo@2x.png" alt="Logo">
+              </div>
+          </div> 
+          <!-- col-2 -->
+          <div class="col-lg-5 col-md-7 col-12 d-flex justify-content-between flex-wrap py-3 py-lg-0">
+              <article class="d-flex align-items-center my-1 align-self-end">
+                  <i class="fas fa-phone primary-text fs-2 me-2"></i>
+                  <div class="vr mx-3 white-bg"></div>
+                  <div class="text">
+                      <p class="text-color m-0">Call us</p>
+                      <p class="white-text">(603) 555-0123</p>
+                  </div>
+              </article>
+              <article class="d-flex align-items-center my-1 align-self-end">
+                  <i class="fa-regular fa-envelope primary-text fs-2 me-2"></i>
+                  <div class="vr mx-3 white-bg"></div>
+                  <div class="text">
+                      <p class="text-color m-0">Need live help</p>
+                      <p class="white-text">proty-support@gmail.com</p>
+                  </div>
+              </article>
+          </div>
+      </div>     
+      <hr class="secondary-border">
+      <!-- middle -->
+      <div class="d-flex justify-content-between flex-wrap py-3">
+          <!-- 1 -->
+          <article>
+              <h3 class="white-text">About us</h3>
+              <ul class="list-unstyled text-color">
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Contact</span>
 
-  <br>
-  <Br>
-  <!-- section ribbon-->
-  <section class="find-agent primary-bg">
-    <div class="container d-flex flex-wrap align-items-center justify-content-lg-between text-lg-start text-center
-    justify-content-center white-text p-3">
-        <article class="find-agent-text ">
-            <h3>Find a Local Real State Agent Today</h3>
-            <p>If you're looking to buy or sell a house. We'll help you make the most money possible.</p>
-        </article>
-        <div class="find-agent-btn btn d-flex align-items-center primary-text white-bg px-4 py-2">
-            <p class="m-0 me-3">Find your location agent</p>
-            <i class="fas fa-search"></i>
-        </div>
-    </div>
-  </section>
-  <!-- footer-->
-  <footer class="secondary-bg py-5">
-    <div class="container">
-        <!-- upper -->
-        <div class="row justify-content-between align-items-center pb-3">
-            <!-- col-1 -->
-            <div class="col-lg-7 col-md-5 col-12">
-                <div>
-                    <img src="./assets/imgs/logo@2x.png" alt="Logo">
-                </div>
-            </div> 
-            <!-- col-2 -->
-            <div class="col-lg-5 col-md-7 col-12 d-flex justify-content-between flex-wrap py-3 py-lg-0">
-                <article class="d-flex align-items-center my-1 align-self-end">
-                    <i class="fas fa-phone primary-text fs-2 me-2"></i>
-                    <div class="vr mx-3 white-bg"></div>
-                    <div class="text">
-                        <p class="text-color m-0">Call us</p>
-                        <p class="white-text">(603) 555-0123</p>
-                    </div>
-                </article>
-                <article class="d-flex align-items-center my-1 align-self-end">
-                    <i class="fa-regular fa-envelope primary-text fs-2 me-2"></i>
-                    <div class="vr mx-3 white-bg"></div>
-                    <div class="text">
-                        <p class="text-color m-0">Need live help</p>
-                        <p class="white-text">proty-support@gmail.com</p>
-                    </div>
-                </article>
-            </div>
-        </div>     
-        <hr class="secondary-border">
-        <!-- middle -->
-        <div class="d-flex justify-content-between flex-wrap py-3">
-            <!-- 1 -->
-            <article>
-                <h3 class="white-text">About us</h3>
-                <ul class="list-unstyled text-color">
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Contact</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Why choose us?</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Customer reviews</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Our Team</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Careers with reality</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Work with us</span>
+                  </li>
+              </ul>
+          </article>
+          <!-- 2 -->
+          <article>
+              <h3 class="white-text">Popular house</h3>
+              <ul class="list-unstyled text-color">
+                  <li>
+                      <a href="#">#Penthouses</a>
+                  </li>
+                  <li>
+                      <a href="#">#Villas</a>
+                  </li>
+                  <li>
+                      <a href="#">#Smart home</a>
+                  </li>
+                  <li>
+                      <a href="#">#Apartments</a>
+                  </li>
+                  <li>
+                      <a href="#">#Office</a>
+                  </li>
+                  <li>
+                      <a href="#">#Bungalow</a>
+                  </li>
+              </ul>
+          </article>
+          <!-- 3 -->
+          <article>
+              <h3 class="white-text">Quick links</h3>
+              <ul class="list-unstyled text-color">
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Contact</span>
+          
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Why choose us?</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Customer reviews</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Our Team</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Careers with reality</span>
+                  </li>
+                  <li>
+                      <i class="fas fa-caret-right primary-text me-1"></i>
+                      <span>Work with us</span>
+                  </li>
+              </ul>
+          </article>
+          <!-- 4 -->
+          <article class="text-color d-flex flex-column justify-content-between">
+              <h3 class="white-text">Newsletter</h3>
+              <label for="Email" class="form-label">Sign up to receive the latest articles</label>
+              <input type="email" id="Email" placeholder="Your email address" class="bg-transparent form-control secondary-border" >
+              <div class="checkbox d-flex mt-1">
+                  <input type="checkbox" id="Terms" class="form-check-input bg-transparent secondary-border me-1">
+                  <label for="Terms" class="form-label">I have read and agree to the terms & conditions</label>
+              </div>
+              <button class="btn white-text primary-bg px-4 py-2">SUBSCRIBE</button>
+          </article>
+      
+      </div>
+      <hr class="secondary-border">
+      <!-- bottom -->
+      <div class="d-flex justify-content-between align-items-center flex-wrap text-color">
+          <p>copyright &copy; <b>PROTY - REAL ESTATE.</b> Designed & Developed by Themesflat</p>
+          <div class="d-flex flex-wrap align-items-center">
+              <p class="fw-bold white-text me-3">FOLLOW US</p>
+              <ul class="list-unstyled d-flex">
+                  <li class="me-2 secondary-border p-3 rounded-circle ">
+                      <a href="#"><i class="fab fa-facebook-f white-text"></i></a>
+                  </li>
+                  <li class="me-2 secondary-border p-3 rounded-circle">
+                      <a href="#"><i class="fab fa-x-twitter white-text"></i></a>
+                  </li>
+                  <li class="me-2 secondary-border p-3 rounded-circle">
+                      <a href="#"><i class="fab fa-linkedin-in white-text"></i></a>
+                  </li>
+                  <li class="me-2 secondary-border p-3 rounded-circle">
+                      <a href="#"><i class="fab fa-instagram white-text"></i></a>
+                  </li>
+              </ul>
+              
+              
+      </div>
+  </div>
+  
+</footer>
 
-                    </li>
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Why choose us?</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Customer reviews</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Our Team</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Careers with reality</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Work with us</span>
-                    </li>
-                </ul>
-            </article>
-            <!-- 2 -->
-            <article>
-                <h3 class="white-text">Popular house</h3>
-                <ul class="list-unstyled text-color">
-                    <li>
-                        <a href="#">#Penthouses</a>
-                    </li>
-                    <li>
-                        <a href="#">#Villas</a>
-                    </li>
-                    <li>
-                        <a href="#">#Smart home</a>
-                    </li>
-                    <li>
-                        <a href="#">#Apartments</a>
-                    </li>
-                    <li>
-                        <a href="#">#Office</a>
-                    </li>
-                    <li>
-                        <a href="#">#Bungalow</a>
-                    </li>
-                </ul>
-            </article>
-            <!-- 3 -->
-            <article>
-                <h3 class="white-text">Quick links</h3>
-                <ul class="list-unstyled text-color">
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Contact</span>
-            
-                    </li>
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Why choose us?</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Customer reviews</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Our Team</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Careers with reality</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-caret-right primary-text me-1"></i>
-                        <span>Work with us</span>
-                    </li>
-                </ul>
-            </article>
-            <!-- 4 -->
-            <article class="text-color d-flex flex-column justify-content-between">
-                <h3 class="white-text">Newsletter</h3>
-                <label for="Email" class="form-label">Sign up to receive the latest articles</label>
-                <input type="email" id="Email" placeholder="Your email address" class="bg-transparent form-control secondary-border" >
-                <div class="checkbox d-flex mt-1">
-                    <input type="checkbox" id="Terms" class="form-check-input bg-transparent secondary-border me-1">
-                    <label for="Terms" class="form-label">I have read and agree to the terms & conditions</label>
-                </div>
-                <button class="btn white-text primary-bg px-4 py-2">SUBSCRIBE</button>
-            </article>
-        
-        </div>
-        <hr class="secondary-border">
-        <!-- bottom -->
-        <div class="d-flex justify-content-between align-items-center flex-wrap text-color">
-            <p>copyright &copy; <b>PROTY - REAL ESTATE.</b> Designed & Developed by Themesflat</p>
-            <div class="d-flex flex-wrap align-items-center">
-                <p class="fw-bold white-text me-3">FOLLOW US</p>
-                <ul class="list-unstyled d-flex">
-                    <li class="me-2 secondary-border p-3 rounded-circle ">
-                        <a href="#"><i class="fab fa-facebook-f white-text"></i></a>
-                    </li>
-                    <li class="me-2 secondary-border p-3 rounded-circle">
-                        <a href="#"><i class="fab fa-x-twitter white-text"></i></a>
-                    </li>
-                    <li class="me-2 secondary-border p-3 rounded-circle">
-                        <a href="#"><i class="fab fa-linkedin-in white-text"></i></a>
-                    </li>
-                    <li class="me-2 secondary-border p-3 rounded-circle">
-                        <a href="#"><i class="fab fa-instagram white-text"></i></a>
-                    </li>
-                </ul>
-                
-                
-        </div>
-    </div>
-    
-  </footer>
-<!-- bootstrap js -->
+    </head>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
-
 </html>
