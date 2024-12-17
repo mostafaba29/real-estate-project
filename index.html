@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+  <!-- cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/indexstyle.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light shadow">
+      <div class="container-fluid ">
+        <a class="navbar-brand " href="#"><img class="w-50 p-2" src="./assets/imgs/logo@2x.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  ms-5" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item m-3">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item m-3">
+              <a class="nav-link" href="./pages/porperty-listing.html">Listing</a>
+            </li>
+            <li class="nav-item m-3">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item m-3">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li>
+              <a class="nav-link m-3" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex  p-2 align-items-baseline">
+            <p class="mx-4"><span class="primary-text m-2"><i class="fa-solid fa-phone"></span></i> (603)555-0123</p>
+            <button class="navbarbutton">Add property</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="head"></div>
+  </header>
+  <!-- end header -->
+  <section id="listing" class="search my-5 py-3 text-center container">
+    <h3>Try Searching For</h3>
+    <p>Thousands of luxury home enthusiastasts just like you have foune their dream home</p>
+    <div class="container ">
+      <div class="row justify-content-center">
+        <div class=" col-2 p-2">
+          <div class="search-icon p-2">
+            <div class="icon">
+              <i class="fa-solid fa-city "></i>
+            </div>
+            <h5>Apartment</h5>
+            <p>234 Property</p>
+          </div>
+
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2  p-2">
+          <div class="search-icon  p-2">
+            <div class="icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <h5>Villa</h5>
+            <p>234 Property</p>
+          </div>
+        </div>
+
+        <div id="studio" class="col-sm-6 col-md-4 col-lg-2  p-2">
+          <div class="search-icon  p-2">
+            <div class="icon">
+              <i class="fa-solid fa-city"></i>
+            </div>
+            <h5>Studio</h5>
+            <p>234 Property</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-2  p-2">
+          <div class="search-icon  p-2">
+            <div class="icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <h4>Office</h4>
+            <p>234 Property</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2  p-2">
+          <div class="search-icon  p-2">
+            <div class="icon">
+              <i class="fa-solid fa-hotel"></i>
+            </div>
+            <h5>Townhouse</h5>
+            <p>234 Property</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2  p-2">
+          <div class="search-icon  p-2">
+            <div class="icon">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <h5>Commercial</h5>
+            <p>234 Property</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class=" my-5 py-3 list-studio">
+    <div class="text-center">
+      <h2>Today's Luxury Listing</h2>
+      <p>Thousands of luxury home enthusiastasts just like you visit our website</p>
+    </div><br>
+    <div class="container">
+      <div class="row my-3 justify-content-between">
+        <!-- First Card -->
+        <section class="col-md-6 col-lg-4 col-sm-12 list-studio mb-4">
+          <div class="card position-relative">
+            <img src="./assets/imgs/studio/studio_1.jpg" alt="studio-1" class="card-img-top" />
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Elegant studio flat</h6>
+              </div>
+              <div class="card-text">
+                <p><i class="fa-solid fa-location-dot"></i> 102 Ingraham St, Brooklyn,NY 1234</p>
+                <p>
+                  <span>3 </span>Beds <span> 3 </span>Baths
+                  <span> 4,043 </span>Sqft
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <span class="price">$8,805</span>
+                <span><i class="fas fa-long-arrow-alt-right"></i> compare</span>
+                <a href="./pages/property-details.html" class="navbarbutton">Details</a>
+              </div>
+              <div class="button position-absolute top-0 right-50">
+                <button class="btn-feature">Featured</button>
+                <button class="btn-sale">For Sale</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Second Card -->
+        <section class="col-md-6 col-lg-4 col-sm-12 mb-4">
+          <div class="card position-relative">
+            <img src="./assets/imgs/studio/studio_1.jpg" alt="studio-2" class="card-img-top" />
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Elegant studio flat</h6>
+              </div>
+              <div class="card-text">
+                <p><i class="fa-solid fa-location-dot"></i> 102 Ingraham St, Brooklyn,NY 1234</p>
+                <p>
+                  <span>3 </span>Beds <span> 3 </span>Baths
+                  <span> 4,043 </span>Sqft
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <span class="price">$8,805</span>
+                <span><i class="fas fa-long-arrow-alt-right"></i> compare</span>
+                <a href="./pages/property-details.html" class="navbarbutton">Details</a>
+
+              </div>
+              <div class="button position-absolute top-0 right-50">
+                <button class="btn-feature">Featured</button>
+                <button class="btn-sale">For Sale</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Third Card -->
+        <section class="col-md-6 col-lg-4 col-sm-12  mb-4">
+          <div class="card position-relative">
+            <img src="./assets/imgs/studio/studio_1.jpg" alt="studio-3" class="card-img-top" />
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Elegant studio flat</h6>
+              </div>
+              <div class="card-text">
+                <p><i class="fa-solid fa-location-dot"></i> 102 Ingraham St, Brooklyn,NY 1234</p>
+                <p>
+                  <span>3 </span>Beds <span> 3 </span>Baths
+                  <span> 4,043 </span>Sqft
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <span class="price">$8,805</span>
+                <span><i class="fas fa-long-arrow-alt-right"></i> compare</span>
+                <a href="./pages/property-details.html" class="navbarbutton">Details</a>
+
+              </div>
+              <div class="button position-absolute top-0 right-50">
+                <button class="btn-feature">Featured</button>
+                <button class="btn-sale">For Sale</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--second row-->
+    <div class="container">
+      <div class="row my-3 justify-content-between">
+        <!-- First Card -->
+        <section class="col-md-6 col-lg-4 col-sm-12 list-studio mb-4">
+          <div class="card position-relative">
+            <img src="./assets/imgs/studio/studio_1.jpg" alt="studio-1" class="card-img-top" />
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Elegant studio flat</h6>
+              </div>
+              <div class="card-text">
+                <p><i class="fa-solid fa-location-dot"></i> 102 Ingraham St, Brooklyn,NY 1234</p>
+                <p>
+                  <span>3 </span>Beds <span> 3 </span>Baths
+                  <span> 4,043 </span>Sqft
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <span class="price">$8,805</span>
+                <span><i class="fas fa-long-arrow-alt-right"></i> compare</span>
+                <a href="./pages/property-details.html" class="navbarbutton">Details</a>
+
+              </div>
+              <div class="button position-absolute top-0 right-50">
+                <button class="btn-feature">Featured</button>
+                <button class="btn-sale">For Sale</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Second Card -->
+        <section class="col-md-6 col-lg-4 col-sm-12 mb-4">
+          <div class="card position-relative">
+            <img src="./assets/imgs/studio/studio_1.jpg" alt="studio-2" class="card-img-top" />
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Elegant studio flat</h6>
+              </div>
+              <div class="card-text">
+                <p><i class="fa-solid fa-location-dot"></i> 102 Ingraham St, Brooklyn,NY 1234</p>
+                <p>
+                  <span>3 </span>Beds <span> 3 </span>Baths
+                  <span> 4,043 </span>Sqft
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <span class="price">$8,805</span>
+                <span><i class="fas fa-long-arrow-alt-right"></i> compare</span>
+                <a href="./pages/property-details.html" class="navbarbutton">Details</a>
+
+              </div>
+              <div class="button position-absolute top-0 right-50">
+                <button class="btn-feature">Featured</button>
+                <button class="btn-sale">For Sale</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Third Card -->
+        <section class="col-md-6 col-lg-4 col-sm-12  mb-4">
+          <div class="card position-relative">
+            <img src="./assets/imgs/studio/studio_1.jpg" alt="studio-3" class="card-img-top" />
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Elegant studio flat</h6>
+              </div>
+              <div class="card-text">
+                <p><i class="fa-solid fa-location-dot"></i> 102 Ingraham St, Brooklyn,NY 1234</p>
+                <p>
+                  <span>3 </span>Beds <span> 3 </span>Baths
+                  <span> 4,043 </span>Sqft
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <span class="price">$8,805</span>
+                <span><i class="fas fa-long-arrow-alt-right"></i> compare</span>
+                <a href="./pages/property-details.html" class="navbarbutton">Details</a>
+
+              </div>
+              <div class="button position-absolute top-0 right-50">
+                <button class="btn-feature">Featured</button>
+                <button class="btn-sale">For Sale</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    </div>
+    </div>
+    <br><br>
+    <section class="discover my-5 py-5 text-center">
+      <h2>Today's Luxury Listing</h2>
+      <p>Thousands of luxury home enthusiastasts just like you visit our website</p>
+      <div>
+        <button class="active top-buttons">Buy</button>
+        <button class="top-buttons">Rating</button>
+        <button class="top-buttons">Selling</button>
+        <div class="container">
+          <div class="row my-4">
+            <div class="col-md-4  p-3">
+              <div class="discover-card  p-3">
+                <div class="icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h4>Find out How much you can afford</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempora dolorum
+                  molestias harum illo aut?</p>
+                <button>Learn More</button>
+              </div>
+            </div>
+            <div class="col-md-4  p-3">
+              <div class="discover-card  p-3">
+                <div class="icon">
+                  <i class="fa-solid fa-hand-holding-dollar"></i>
+                </div>
+                <h4>Find out How much you can afford</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempora dolorum
+                  molestias harum illo aut?</p>
+                <button>Learn More</button>
+              </div>
+            </div>
+            <div class="col-md-4  p-3">
+              <div class="discover-card  p-3">
+                <div class="icon">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+                <h4>Find out How much you can afford</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempora dolorum
+                  molestias harum illo aut?</p>
+                <button>Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>Looking to spotiling a unique property with export marketing? <a href="#">let's Chat</a></p>
+    </section>
+    <section class="loan my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="loan-card">
+              <h3>Do you need a home laon?<br>Get Pre-approved</h3>
+              <p>Find a lender who offer competitive mortgage rates and help you with pre-approval </p>
+            </div>
+            <!--loan-->
+            <div class="row">
+              <div class="col-md-4">
+                <div class="mb-3">
+                  <label for="totalAmount" class="form-label">Total Amount</label>
+                  <input type="number" class="form-control" id="totalAmount" value="1000">
+                </div>
+                <div class="mb-3">
+                  <label for="interestRate" class="form-label">Interest Rate</label>
+                  <input type="number" class="form-control" id="interestRate" value="0">
+                </div>
+                <div class="mb-3">
+                  <label for="propertyTax" class="form-label">Property Tax</label>
+                  <input type="number" class="form-control" id="propertyTax" value="3000">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="mb-3">
+                  <label for="downPayment" class="form-label">Down Payment</label>
+                  <div class="input-group">
+                    <input type="number" class="form-control" id="downPayment" value="2000">
+                    <span class="input-group-text">20%</span>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="amortizationPeriod" class="form-label">Amortization Period (months)</label>
+                  <select class="form-select" id="amortizationPeriod">
+                    <option value="12">12 months</option>
+                    <option value="24">24 months</option>
+                    <option value="36">36 months</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="homeInsurance" class="form-label">Home Insurance</label>
+                  <input type="number" class="form-control" id="homeInsurance" value="3000">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <p>Your estimated monthly payment: <span id="monthlyPayment">8000</span></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <button type="button" class="button-loan active" onclick="calculatePayment()">Calculate now</button>
+              </div>
+              <div class="col-3">
+                <button type="button" class="button-loan" onclick="resetForm()">Start over</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="loan-card">
+              <img class="w-100 h-100" src="./assets/imgs/loan/loan-2.jpg" alt="loan">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </section>
+  <section class="explore">
+    <div class="container">
+      <h2 class="text-center mb-4">Explore The Neighborhoods</h2>
+      <p class="text-center mb-5">Find your dream apartment with our listings</p>
+    </div>
+    <div class="mt-5 m-4">
+      <div class="row">
+        <!--first card-->
+        <div class="col-md-3 col-sm-6">
+          <div class="property-card">
+            <img src="./assets/imgs/explore/explore-one.jpg" alt="Cityscape" class="rounded">
+            <div class="row">
+              <div class="property-info-text col-3"><b>New York</b></div>
+              <div class="property-info col-6"> <a class="m-2">2.491 Properties <i
+                    class="fa-solid fa-angle-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <!--second card-->
+        <div class="col-md-3 col-sm-6">
+          <div class="property-card">
+            <img src="./assets/imgs/explore/explore-two.jpg" alt="Cityscape" class="rounded">
+            <div class="row">
+              <div class="property-info-text col-3"><b>New York</b></div>
+              <div class="property-info col-6"> <a class="m-2">2.491 Properties <i
+                    class="fa-solid fa-angle-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <!--third card-->
+        <div class="col-md-3 col-sm-6">
+          <div class="property-card">
+            <img src="./assets/imgs/explore/explore-three.jpg" alt="Cityscape" class="rounded">
+            <div class="row">
+              <div class="property-info-text col-3"><b>New York</b></div>
+              <div class="property-info col-6"> <a class="m-2">2.491 Properties <i
+                    class="fa-solid fa-angle-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <!--fourth card-->
+        <div class="col-md-3 col-sm-6">
+          <div class="property-card">
+            <img src="./assets/imgs/explore/explore-one.jpg" alt="Cityscape" class="rounded">
+            <div class="row">
+              <div class="property-info-text col-3"><b>New York</b></div>
+              <div class="property-info col-6"> <a class="m-2">2.491 Properties <i
+                    class="fa-solid fa-angle-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--second row-->
+    <div class=" m-4">
+      <div class="row">
+        <!--first card-->
+        <div class="col-md-3 col-sm-6">
+          <div class="property-card">
+            <img src="./assets/imgs/explore/explore-one.jpg" alt="Cityscape" class="rounded">
+            <div class="row">
+              <div class="property-info-text col-3"><b>New York</b></div>
+              <div class="property-info col-6"> <a class="m-2">2.491 Properties <i
+                    class="fa-solid fa-angle-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <!--second card-->
+        <div class="col-md-6 col-sm-12">
+          <div class="property-card">
+            <img src="./assets/imgs/explore/explore-one.jpg" alt="Cityscape" class="rounded img-col">
+            <div class="row">
+              <div class="property-info-text col-3"><b>New York</b></div>
+              <div class="property-info col-6"> <a class="m-2">2.491 Properties <i
+                    class="fa-solid fa-angle-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <!--third card-->
+        <div class="col-md-3 col-sm-6">
+          <div class="property-card">
+            <img src="./assets/imgs/explore/explore-one.jpg" alt="Cityscape" class="rounded">
+            <div class="row">
+              <div class="property-info-text col-3"><b>New York</b></div>
+              <div class="property-info col-6"> <a class="m-2">2.491 Properties <i
+                    class="fa-solid fa-angle-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><Br><Br>
+  <section class="elegant-studio ">
+    <div class="container ">
+      <h2 class="text-center mb-4">Explore The Neighborhoods</h2>
+      <p class="text-center mb-5">Find your dream apartment with our listings</p>
+      <div class="row justify-content-center container gap-5">
+        <div class="mb-3" style="max-width: 550px;">
+          <div class="explore-card  row g-0">
+            <div class="col-md-5">
+              <img src="./assets/imgs/elgant-studio.png" alt="Elegant studio flat">
+            </div>
+            <div class="col-md-7">
+              <div class="listing-details">
+                <h5>Elegant studio flat</h5>
+                <p class="secondary-color"><i class="fas fa-map-marker-alt "></i> Los Angeles, California 91604</p>
+                <p><i class="fas fa-bed  secondary-color"></i> Beds: 4 &nbsp; <i
+                    class="fas fa-bath secondary-color"></i> Baths: 2</p>
+                <p><i class="fas fa-ruler-combined secondary-color"></i> Sqft: 1150 &nbsp; <i
+                    class="fas fa-car secondary-color"></i> Garage: 2</p>
+                <hr>
+                <div class="row justify-content-between">
+                  <p class="price col-3 primary-color  mt-3">$8,600</p>
+                  <a class="btn-details col-4 " href="./pages/property-details.html">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--second card-->
+        <div class="mb-3" style="max-width: 550px;">
+          <div class="explore-card  row g-0">
+            <div class="col-md-5">
+              <img src="./assets/imgs/elgant-studio.png" alt="Elegant studio flat">
+            </div>
+            <div class="col-md-7">
+              <div class="listing-details">
+                <h5>Elegant studio flat</h5>
+                <p class="secondary-color"><i class="fas fa-map-marker-alt "></i> Los Angeles, California 91604</p>
+                <p><i class="fas fa-bed  secondary-color"></i> Beds: 4 &nbsp; <i
+                    class="fas fa-bath secondary-color"></i> Baths: 2</p>
+                <p><i class="fas fa-ruler-combined secondary-color"></i> Sqft: 1150 &nbsp; <i
+                    class="fas fa-car secondary-color"></i> Garage: 2</p>
+                <hr>
+                <div class="row justify-content-between">
+                  <p class="price col-3 primary-color mt-3">$8,600</p>
+                  <a class="btn-details col-4 " href="./pages/property-details.html">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--second row explore card-->
+      <div class="row justify-content-center container gap-5">
+        <div class="mb-3" style="max-width: 550px;">
+          <div class="explore-card  row g-0">
+            <div class="col-md-5">
+              <img src="./assets/imgs/elgant-studio.png" alt="Elegant studio flat">
+            </div>
+            <div class="col-md-7">
+              <div class="listing-details">
+                <h5>Elegant studio flat</h5>
+                <p class="secondary-color"><i class="fas fa-map-marker-alt "></i> Los Angeles, California 91604</p>
+                <p><i class="fas fa-bed  secondary-color"></i> Beds: 4 &nbsp; <i
+                    class="fas fa-bath secondary-color"></i> Baths: 2</p>
+                <p><i class="fas fa-ruler-combined secondary-color"></i> Sqft: 1150 &nbsp; <i
+                    class="fas fa-car secondary-color"></i> Garage: 2</p>
+                <hr>
+                <div class="row justify-content-between">
+                  <p class="price col-3 primary-color  mt-3">$8,600</p>
+                  <a class="btn-details col-4 " href="./pages/property-details.html">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--second card-->
+        <div class="mb-3" style="max-width: 550px;">
+          <div class="explore-card  row g-0">
+            <div class="col-md-5">
+              <img src="./assets/imgs/elgant-studio.png" alt="Elegant studio flat">
+            </div>
+            <div class="col-md-7">
+              <div class="listing-details">
+                <h5>Elegant studio flat</h5>
+                <p class="secondary-color"><i class="fas fa-map-marker-alt "></i> Los Angeles, California 91604</p>
+                <p><i class="fas fa-bed  secondary-color"></i> Beds: 4 &nbsp; <i
+                    class="fas fa-bath secondary-color"></i> Baths: 2</p>
+                <p><i class="fas fa-ruler-combined secondary-color"></i> Sqft: 1150 &nbsp; <i
+                    class="fas fa-car secondary-color"></i> Garage: 2</p>
+                <hr>
+                <div class="row justify-content-between">
+                  <p class="price col-3 primary-color  mt-3">$8,600</p>
+                  <a class="btn-details col-4 " href="./pages/property-details.html">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><Br><Br>
+  <Section class="work-together container-fluid">
+    <div class="header">
+      <h1>Let's Work Together</h1>
+      <p>Thousands of luxury home enthusiasts just like you visit our website.</p>
+      <div class="logos row justify-content-center gap-5  p-4">
+        <div class="logo-border">
+          <img src="./assets/imgs/logos/logo-one.png" alt="Imperial">
+        </div>
+        <div class="logo-border">
+          <img src="./assets/imgs/logos/logo-two.png" alt="Imperial">
+        </div>
+        <div class="logo-border">
+          <img src="./assets/imgs/logos/logo-three.png" alt="Imperial">
+        </div>
+        <div class="logo-border">
+          <img src="./assets/imgs/logos/logo-four.png" alt="Imperial">
+        </div>
+        <div class="logo-border">
+          <img src="./assets/imgs/logos/logo-five.png" alt="Imperial">
+        </div>
+        <div class="logo-border">
+          <img src="./assets/imgs/logos/logo-three.png" alt="Imperial">
+        </div>
+      </div>
+    </div>
+    <div class="cta-section">
+      <div class="d-flex justify-content-between">
+        <div class=" text-start m-4">
+          <h3>Are You Selling Or <Br>Renting Your Property?</h3>
+          <p class="secondary-color">Thousands of luxury home enthusiasts just like you visit our website.</p>
+          <a class="cta-button btn" href="./pages/agent-page-eight.html">Request your free appraisal</a>
+        </div>
+        <div class="cta-img"> <img src="./assets/imgs/person.png" alt="Person"> </div>
+      </div>
+  </Section><br><br><br><br><br><br><br><br>
+
+  <section class="insights">
+    <div class="container">
+      <h2 class="text-center mb-4">Insights & Opinion</h2>
+      <p class="text-center mb-5 secondary-color">Thousands of luxury home enthusiastasts just like you visit our
+        website.</p>
+    </div>
+    <!--row cards-->
+    <div class=" container">
+      <div class="row justify-content-between">
+        <div class="col-md-4 col-sm-6">
+          <div class="blog-card">
+            <div class="image-container">
+              <img src="./assets/imgs/blogCard/blogcard.jpg" alt="Living Room">
+              <div class="category">Real estate</div>
+            </div>
+            <div class="content">
+              <div class="date"><span class="date-icon"><i class="fa-regular fa-clock"></i></span> 26 August, 2024</div>
+              <div class="title">Building gains into housing stocks and how to trade the...</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="blog-card">
+            <div class="image-container">
+              <img src="./assets/imgs/blogCard/blogcard.jpg" alt="Living Room">
+              <div class="category">Real estate</div>
+            </div>
+            <div class="content">
+              <div class="date"><span class="date-icon"><i class="fa-regular fa-clock"></i></span> 26 August, 2024</div>
+              <div class="title">Building gains into housing stocks and how to trade the...</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="blog-card">
+            <div class="image-container">
+              <img src="./assets/imgs/blogCard/blogcard.jpg" alt="Living Room">
+              <div class="category">Real estate</div>
+            </div>
+            <div class="content">
+              <div class="date"><span class="date-icon"><i class="fa-regular fa-clock"></i></span> 26 August, 2024</div>
+              <div class="title">Building gains into housing stocks and how to trade the...</div>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+    </div>
+    </div>
+  </section>
+  <section class="clients">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Clients Testimonials</h2>
+          <p>Thousands of luxury home enthusiasts just like you visit our website.</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="mt-3">Aenean orci lorem, pharetra ac imperdiet eget, tristique ac magna. In aliquet efficitur
+              turpis, et posuere tellus commodo at. Morbi accumsan nulla id neque rutrum, et tempus dui venenatis.
+              Quisque dapibus metus ligula, id tempor nisl interdum vitae.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam tempus urna id interdum.
+              Proin iaculis erat id sapien venenatis convallis. Nam et ullamcorper nibh. Nulla malesuada consectetur sem
+              ut varius. Fusce ornare tortor non maximus volutpat.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="mt-3">"My experience with property management services has exceeded expectations. They efficiently
+              manage properties with a professional and attentive approach in every situation. I feel reassured that any
+              issue will be resolved promptly and effectively."</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-12 text-center">
+          <button class="clients-btn">Show More...</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br>
+  <!-- footer-->
+  <footer class="secondary-bg py-5 ">
+    <div class="container">
+      <!-- upper -->
+      <div class="row justify-content-around align-items-center pb-3">
+        <!-- col-1 -->
+        <div class="col-lg-7 col-md-5 col-12">
+          <div>
+            <img src="./assets/imgs/logo@2x.png" alt="Logo">
+          </div>
+        </div>
+        <!-- col-2 -->
+        <div class=" col-lg-5 col-md-5 col-12 d-flex justify-content-between flex-wrap py-3 py-lg-0">
+          <article class="d-flex align-items-center my-1 align-self-end">
+            <i class="fas fa-phone primary-text fs-2 me-2"></i>
+            <div class="vr mx-3 white-bg"></div>
+            <div class="text">
+              <p class="text-color m-0">Call us</p>
+              <p class="white-text">(603) 555-0123</p>
+            </div>
+          </article>
+          <article class="d-flex align-items-center my-1 align-self-end">
+            <i class="fa-regular fa-envelope primary-text fs-2 me-2"></i>
+            <div class="vr mx-3 white-bg"></div>
+            <div class="text">
+              <p class="text-color m-0">Need live help</p>
+              <p class="white-text">proty-support@gmail.com</p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <hr class="secondary-border">
+      <!-- middle -->
+      <div class="d-flex justify-content-between flex-wrap py-3">
+        <!-- 1 -->
+        <article>
+          <h6 class="white-text m-2">About us</h6>
+          <ul class="list-unstyled text-color">
+            <li>
+              <i class="fas fa-caret-right primary-text me-1 m-2 "></i>
+              <span class="footer-text">Contact</span>
+
+            </li>
+            <li>
+              <i class="fas fa-caret-right primary-text me-1 m-2"></i>
+              <span class="footer-text">Why choose us?</span>
+            </li>
+            <li>
+              <i class="fas fa-caret-right primary-text me-1 m-2"></i>
+              <span class="footer-text">Customer reviews</span>
+            </li>
+            <li>
+              <i class="fas fa-caret-right primary-text me-1 m-2"></i>
+              <span>Our Team</span>
+            </li>
+            <li>
+              <i class="fas fa-caret-right primary-text me-1 m-2"></i>
+              <span class="footer-text">Careers with reality</span>
+            </li>
+            <li>
+              <i class="fas fa-caret-right primary-text me-1 m-2"></i>
+              <span class="footer-text">Work with us</span>
+            </li>
+          </ul>
+        </article>
+        <!-- 2 -->
+        <article>
+          <h6 class="white-text m-2 ">Popular house</h6>
+          <ul class="list-unstyled text-color">
+            <li class="m-2">
+              <a href="#" class="footer-text">#Penthouses</a>
+            </li>
+            <li class="m-2">
+              <a href="#" class="footer-text">#Villas</a>
+            </li>
+            <li class="m-2">
+              <a href="#" class="footer-text">#Smart home</a>
+            </li>
+            <li class="m-2">
+              <a href="#" class="footer-text">#Apartments</a>
+            </li>
+            <li class="m-2">
+              <a href="#" class="footer-text">#Office</a>
+            </li>
+            <li class="m-2">
+              <a href="#" class="footer-text">#Bungalow</a>
+            </li>
+          </ul>
+        </article>
+        <!-- 3 -->
+        <article>
+          <h6 class="white-text m-2">Quick links</h6>
+          <ul class="list-unstyled text-color">
+            <li class="m-2">
+              <i class="fas fa-caret-right primary-text me-1"></i>
+              <span class="footer-text">Contact</span>
+
+            </li>
+            <li class="m-2">
+              <i class="fas fa-caret-right primary-text me-1"></i>
+              <span class="footer-text">Why choose us?</span>
+            </li>
+            <li class="m-2">
+              <i class="fas fa-caret-right primary-text me-1"></i>
+              <span class="footer-text">Customer reviews</span>
+            </li>
+            <li class="m-2">
+              <i class="fas fa-caret-right primary-text me-1"></i>
+              <span class="footer-text">Our Team</span>
+            </li>
+            <li class="m-2">
+              <i class="fas fa-caret-right primary-text me-1"></i>
+              <span class="footer-text">Careers with reality</span>
+            </li>
+            <li class="m-2">
+              <i class="fas fa-caret-right primary-text me-1"></i>
+              <span class="footer-text">Work with us</span>
+            </li>
+          </ul>
+        </article>
+        <!-- 4 -->
+        <article class="text-color d-flex flex-column justify-content-between">
+          <h6 class="white-text">Newsletter</h3>
+            <label for="Email" class="form-label">Sign up to receive the latest articles</label>
+            <input type="email" id="Email" placeholder="Your email address"
+              class="bg-transparent form-control secondary-border">
+            <div class="checkbox d-flex mt-1">
+              <input type="checkbox" id="Terms" class="form-check-input bg-transparent secondary-border me-1">
+              <label for="Terms" class="form-label">I have read and agree to the terms & conditions</label>
+            </div>
+            <button class="btn white-text primary-bg px-4 py-2">SUBSCRIBE</button>
+        </article>
+
+      </div>
+      <hr class="secondary-border">
+      <!-- bottom -->
+      <div class="d-flex justify-content-between align-items-center flex-wrap text-color">
+        <p class="footer-text">copyright &copy; <b>PROTY - REAL ESTATE.</b> Designed & Developed by Themesflat</p>
+        <div class="d-flex flex-wrap align-items-center ">
+          <p class="fw-bold white-text me-3 followus-text">FOLLOW US</p>
+          <ul class="list-unstyled d-flex">
+            <li class="me-2 secondary-border  rounded-circle ">
+              <a href="#"><i class="fab fa-facebook-f white-text social-icon"></i></a>
+            </li>
+            <li class="me-2 secondary-border  rounded-circle">
+              <a href="#"><i class="fab fa-x-twitter white-text social-icon"></i></a>
+            </li>
+            <li class="me-2 secondary-border  rounded-circle">
+              <a href="#"><i class="fab fa-linkedin-in white-text social-icon"></i></a>
+            </li>
+            <li class="me-2 secondary-border  rounded-circle">
+              <a href="#"><i class="fab fa-instagram white-text social-icon"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </footer>
+  </head>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
