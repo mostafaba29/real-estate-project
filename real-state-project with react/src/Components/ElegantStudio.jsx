@@ -1,6 +1,6 @@
 import React from 'react';
 import elegantStudioImage from '../assets/imgs/elgant-studio.png'; 
-
+import { Link } from 'react-router-dom';
 function ElegantStudio() {
   const properties = [
     {
@@ -78,11 +78,13 @@ function ElegantStudio() {
                       <i className="fas fa-car secondary-color"></i> Garage: {property.garage}
                     </p>
                     <hr />
-                    <div className="row justify-content-between">
+                    <div className="row justify-content-between" style={{display: 'flex',alignItems: 'center'}}>
                       <p className="price col-3 primary-color mt-3">{property.price}</p>
-                      <a className="btn-details col-4" href="./pages/property-details.html">
+                      <Link className="col-4" to="/listing" >
+                        <button style={{ textDecoration: 'none', fontSize: '14px', backgroundColor:'#f1913d', padding: '5px 10px', color: 'white', borderRadius: '5px' }}>
                         Details
-                      </a>
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -114,11 +116,13 @@ function ElegantStudio() {
                       <i className="fas fa-car secondary-color"></i> Garage: {property.garage}
                     </p>
                     <hr />
-                    <div className="row justify-content-between">
+                    <div className="row justify-content-between" style={{display: 'flex',alignItems: 'center'}}>
                       <p className="price col-3 primary-color mt-3">{property.price}</p>
-                      <a className="btn-details col-4" href="./pages/property-details.html">
+                      <Link className="col-4" to="/listing" >
+                        <button style={{ textDecoration: 'none', fontSize: '14px', backgroundColor:'#f1913d', padding: '5px 10px', color: 'white', borderRadius: '5px' }}>
                         Details
-                      </a>
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

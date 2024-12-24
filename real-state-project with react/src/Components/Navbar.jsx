@@ -2,14 +2,15 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';  // Use NavLink here
 import '../assets/css/indexstyle.css';
 import logoImage from "../assets/imgs/logo@2x.png"
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light shadow">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <img className="w-50 p-2" src={logoImage} alt="Logo" />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

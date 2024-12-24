@@ -1,10 +1,10 @@
-// src/components/LuxuryListing.jsx
+
 import React from 'react';
 import '../assets/css/indexstyle.css';
 import listingimage from "../assets/imgs/studio/studio_1.jpg";
+import { Link } from 'react-router-dom';
 
 function LuxuryListing() {
-  // Sample data for the listings. You can later replace this with dynamic data
   const listings = [
     {
       id: 1,
@@ -36,7 +36,6 @@ function LuxuryListing() {
       sqft: '4,043',
       price: '$8,805',
     },
-    // Add more listings as needed
   ];
 
   return (
@@ -70,7 +69,7 @@ function LuxuryListing() {
                     <span>
                       <i className="fas fa-long-arrow-alt-right"></i> compare
                     </span>
-                    <a href="./pages/property-details.html" className="navbarbutton">Details</a>
+                    <Link to="/Listing" className="navbarbutton">Details</Link>
                   </div>
                   <div className="button position-absolute top-0 right-50">
                     <button className="btn-feature">Featured</button>
@@ -105,7 +104,7 @@ function LuxuryListing() {
                     <span>
                       <i className="fas fa-long-arrow-alt-right"></i> compare
                     </span>
-                    <a href="./pages/property-details.html" className="navbarbutton">Details</a>
+                    <Link to="/listing" className="navbarbutton">Details</Link>
                   </div>
                   <div className="button position-absolute top-0 right-50">
                     <button className="btn-feature">Featured</button>
